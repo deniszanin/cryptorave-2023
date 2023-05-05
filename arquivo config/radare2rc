@@ -1,0 +1,30 @@
+#"""""""""""""""""""""""""""""""""""""" 
+#" RADARE2RC file:
+#" vim:set filetype=conf:
+#" vim:filetype=conf:
+#""""""""""""""""""""""""""""""""""""""
+#
+e cfg.editor=vi
+e cmd.stack=true
+e scr.color=3
+e scr.color.grep=true
+e scr.color.pipe=true
+e scr.highlight.grep=true
+e scr.confirmquit=true
+e scr.prompt.mode=true
+e scr.prompt.popup=true
+e scr.prompt.vi=true
+e scr.utf8=true
+e scr.utf8.curvy=true
+
+#e dir.tmp=RADARE_REPLACE_THIS_TMP/radare2
+#e log.file=RADARE_REPLACE_THIS_TMP/radare2
+#e http.logfile=RADARE_REPLACE_THIS_TMP/radare2/http_logfile
+#e http.uproot=RADARE_REPLACE_THIS_TMP/radare2
+
+eco monokai
+
+# RADARE2 BUG: for some reason if these variables are set, 
+# fortunes are disabled.
+#e cfg.fortunes=true
+#e cfg.fortunes.type=tips,fun
